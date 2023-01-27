@@ -111,4 +111,4 @@ console.log(
 
 console.log(`Before deleting 3 numbers from index 4 : ${arrayNumbers}`);
 arrayNumbers.splice(4, 3);
-console.log(`After deleting 3 numbers from index 4 : ${arrayNumbers}`);
+console.log(`After deleting 3 numbers from index 4 : ${arrayNumbers}`);````
