@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Local Storage</title>
+        
+    </head>
+    <body>
+        <h2> Session Storage</h2>
+        <script>
+            console.log("Session Storage");
+            window.sessionStorage.setItem("Name","Anuja Ajay Sonawane");
+            window.sessionStorage.setItem("City","Pimple Gurav");
+            window.sessionStorage.setItem("PinCode",345662);
+            window.sessionStorage.setItem("District Name","Pune");
+            const totalData=window.sessionStorage.length;
+            console.log(totalData);
+            window.sessionStorage.removeItem("city");
+            
+        </script>
+    </body>
+</html>
